@@ -1,11 +1,13 @@
 import React from 'react'
 import './Notifications.css'
+import Closeicon from './close-icon.png';
+import { getLatestNotification } from './utils.js';
 
-export  function Notifications(){
-	    return(
-		            <div className='Notifications'>
-		                <p>Here is the list of notifications</p>
-																		<ul>
+export function Notifications() {
+    return (
+        <div className='Notifications'>
+            <p>Here is the list of notifications</p>
+            <ul>
                 <li data-priority='default'>New course available</li>
                 <li data-priority='urgent'>New resume available</li>
                 <li
@@ -18,10 +20,10 @@ export  function Notifications(){
                 type='button'
                 style={{
                     position: 'absolute',
-                    right: '18px',
-                    top: '18px',
+                    right: '20px',
+                    top: '20px',
                     cursor: 'pointer',
-                    Height: '20px',
+                    maxHeight: '20px',
                     background: 'transparent',
                     border: 'none'
                 }}
@@ -29,15 +31,16 @@ export  function Notifications(){
             >
                 <img
                     src={Closeicon}
-                    alt='close-icon.png'
+                    alt='close-icon'
                     style={{
                         position: 'relative',
-                        Height: '12px',
+                        maxHeight: '12px',
                         background: 'transparent',
                         border: 'none',
                     }}
                 />
             </button>
         </div>
-		        );
+
+    );
 }
