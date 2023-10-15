@@ -20,7 +20,7 @@ class Notifications extends React.Component {
         super(props)
         this.state = {
             displayDrawer: props.displayDrawer,
-            listNotifications: props.listNotifications
+            listNotifications: props.listNotificationsz
         }
         this.markAsRead = this.markAsRead.bind(this)
     }
