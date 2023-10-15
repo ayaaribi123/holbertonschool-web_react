@@ -16,6 +16,7 @@ describe("Testing the BodySection", () => {
 				<p>test children node</p>
 			</BodySection>
 		);
+
 		expect(wrapper.containsAllMatchingElements([
 			<h2>test title</h2>,
 			<p>test children node</p>
