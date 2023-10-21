@@ -96,7 +96,7 @@ class App extends React.Component {
         height: "100vh",
       },
       
-      bodyHeight: {
+      body: {
         height: "70%",
       },
       
@@ -112,6 +112,7 @@ class App extends React.Component {
       
       footer: {
         position: "absolute",
+        bottom: "0",
         width: "100%",
         borderTop: "3px solid var(--holberton-red) !important",
         textAlign: "center",
