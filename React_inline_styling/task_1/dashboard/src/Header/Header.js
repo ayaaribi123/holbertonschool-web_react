@@ -5,7 +5,7 @@ import { StyleSheet, css} from 'aphrodite'
 export default function Header(props) {
     return (
         <div className={props.className}>
-            <img src={logo} alt="logo" className={css(styles.appHeaderImg)}/>
+            <img src={logo} alt="logo" className={css(styles.Header)}/>
             <h1>School dashboard</h1>
         </div>
     )
