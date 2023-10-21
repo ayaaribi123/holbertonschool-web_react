@@ -23,8 +23,8 @@ const styles = StyleSheet.create({
         fontSize: "1.3rem",
         fontWeight: "480",
     },
+
     password: {
         marginLeft: "5px",
     }
 })
-    
