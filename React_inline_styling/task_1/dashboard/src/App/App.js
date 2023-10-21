@@ -112,7 +112,6 @@ class App extends React.Component {
       
       footer: {
         position: "absolute",
-        bottom: "0",
         width: "100%",
         borderTop: "3px solid var(--holberton-red) !important",
         textAlign: "center",
