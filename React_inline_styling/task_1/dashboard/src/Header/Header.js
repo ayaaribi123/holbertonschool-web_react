@@ -12,7 +12,7 @@ export default function Header(props) {
 }
 
 const styles = StyleSheet.create({
-    appHeaderImg: {
+    Header: {
         width: "200px",
         height: "200px",
     }
