@@ -4,7 +4,7 @@ import { login, logout, displayNotificationDrawer, hideNotificationDrawer } from
   
   describe('actions', () => {
     it('login', () => {
-      const user = { email: 'diahancaroll@hotmail.com', password: 12345 };
+      const user = { email: 'ayaaribi@hotmail.com', password: 12589 };
       const data = { type: LOGIN, user };
       const res = login(user.email, user.password);
       expect(res).toEqual(data);
